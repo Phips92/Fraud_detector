@@ -1,0 +1,34 @@
+# Bytecode
+__pycache__/
+*.py[cod]
+*.so
+
+# MacOS
+.DS_Store
+
+# Environment / Venv
+*.env
+.venv/
+env/
+ENV/
+venv/
+
+# Data & Logs
+data/
+*.log
+*.csv
+*.sqlite3
+
+# ML Models
+*.joblib
+*.pkl
+
+# MLflow
+mlruns/
+
+# Docker
+*.tar
+
+# Ignore dataset files
+fraudTest.csv.zip
+fraudTrain.csv.zip
